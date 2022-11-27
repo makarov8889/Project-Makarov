@@ -1,0 +1,100 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.header{
+    display: flex;
+    background-color: #00CEF0;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.img {
+    background-image: url(../img/shopping.jpg);
+    width: 483px;
+    height: 644px;
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+    max-width: 800px;
+}
+
+li {
+    margin-right: 10px;
+}
+
+.wrap {
+    display: flex;
+    flex: row;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+
+h1 {
+    max-width: min-content;
+    align-self: center;
+    color: #fff;
+}
+
+.text-bt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-header{
+    display: flex;
+    justify-content:space-around;
+    justify-items:center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.btn-primary{
+    background-color:white;
+    color: black;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 17px 33px;
+    border: 1px solid white;
+}
+
+.btn-primary:hover {
+
+    background-color: #fff;
+    color: darkgray;
+}
+
+.btn-free {
+    font-weight: 400;
+    padding: 16px 45px;
+}
+
+
+.page-list h2{
+    color: black;
+    font-size: 30px;
+    margin-left: 110px;
+}
+
+.page-list{
+    background-color: #ECCD15;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
